@@ -12,9 +12,7 @@ body {
     /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
     justify-content: center;
     /* Centra los elementos a lo largo del eje principal horizontal */
-    align-items: center;
     /* Centra los elementos a lo largo del eje secundario vertical */
-    background-color: #00438a;
     margin: 0 50px;
     /* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
 
@@ -59,12 +57,14 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 23;
 }
-.idp{
+
+.idp {
     display: flex;
     justify-content: center;
     margin: 0 50px;
-  }
-.boton1{
+}
+
+.boton1 {
     width: 228px;
     color: white;
     background-color: #00438a;
@@ -72,15 +72,64 @@ header {
     border-radius: 24px;
     font-size: 1em;
     text-transform: uppercase;
-  }
-  .precio{
+}
+
+.precio {
     margin: 0 10px 0 0;
     color: #00306d;
     font-family: "Work Sans";
     font-size: 18px;
     font-weight: 700;
     line-height: 19.61px;
-  }
-.p{
+}
+
+.p {
     color: rgb(255, 0, 0);
+}
+
+.img2 {
+    font-size: 33x33;
+}
+
+.contariner {
+    width: 1000px;
+    margin: 0 auto;
+    /* 0 es margen superior e inferior en 0 / auto es margen derecho e izquierdo en autom{aticos es decir va a agregar argen dependiendo del ancho del viewport */
+    display: flex;
+
+}
+
+footer {
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font1 {
+    font-size: 25px;
+    color: #00306d;
+}
+
+ul {
+    display: inline-flex;
+    color: #ffffff;
+    list-style: none;
+    font-size: 17px;
+}
+
+ul,
+li {
+    margin: 36px;
+
+}
+
+#ulconfig {
+    list-style: disc;
+    display: inline;
+    color: black;
+    font: 10px;
 }
